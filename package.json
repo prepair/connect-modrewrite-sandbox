@@ -1,0 +1,23 @@
+{
+  "name": "connect-modrewrite-sandbox",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node .",
+    "lint": "eslint ./"
+  },
+  "dependencies": {
+    "connect-modrewrite": "0.9.0",
+    "express": "4.14.0"
+  },
+  "devDependencies": {
+    "eslint": "3.14.0",
+    "eslint-config-semistandard": "7.0.0",
+    "eslint-config-standard": "6.2.1",
+    "eslint-plugin-promise": "3.4.0",
+    "eslint-plugin-react": "6.9.0",
+    "eslint-plugin-standard": "2.0.1",
+    "nodemon": "1.9.2"
+  }
+}
